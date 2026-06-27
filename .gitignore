@@ -1,0 +1,18 @@
+# Secrets — ne jamais versionner
+.env
+*.env.local
+*.env.production
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
