@@ -7,6 +7,31 @@
 
 ---
 
+## 2026-06-28
+
+### Session 2 : Infrastructure complète + premier site en ligne
+
+**Workspace structuré**
+- Arborescence `livrables/` créée et adaptée au contexte réel : business-ia, immobilier, alternance-btp, organisation, formation-ia
+- Gestion des secrets mise en place : `.env` (privé), `.env.example` (template public), `.gitignore`
+- Commande `/commit` créée pour sauvegarder le workspace en un mot
+
+**Premier livrable business IA**
+- Site e-commerce test "Porto Médoc" créé : design luxury dark, palette brun/or, 3 produits, formulaire contact
+- Design réalisé via Claude Design puis implémenté en HTML/CSS autonome
+- Prompt design sauvegardé dans `livrables/business-ia/site-test-vente/prompt-design.md`
+
+**Infrastructure technique opérationnelle**
+- Repo GitHub créé : github.com/litope/jarvis
+- Connexion GitHub, Netlify établie
+- Site Porto Médoc en ligne : brilliant-begonia-7a75f0.netlify.app
+- Déploiement automatique actif : chaque push GitHub met le site à jour sur Netlify
+
+**Outils maîtrisés aujourd'hui**
+- Git (commits, branches, remote), GitHub (repo, token API), Netlify (déploiement continu), Claude Design (design to code)
+
+---
+
 ## 2026-06-27
 
 ### Installation initiale du Jarvis
